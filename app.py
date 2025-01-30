@@ -149,5 +149,6 @@ def download_existing():
         logger.error(f"Download existing error: {e}")
         return "Error generating existing records", 500
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+if __name__ == '__main__':
+    port = int(os.getenv("PORT", 5000))  # Use the PORT environment variable
+    app.run(host='0.0.0.0', port=port)
