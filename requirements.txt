@@ -1,12 +1,12 @@
 bcrypt==4.2.1
 blinker==1.9.0
 cffi==1.17.1
-chardet==5.2.0
+charset-normalizer==2.1.1  # Replaced chardet
 click==8.1.8
 cloudpickle==3.1.1
 colorama==0.4.6
 cryptography==44.0.0
-dask==2025.1.0
+dask==2022.9.0  # Updated version
 et_xmlfile==2.0.0
 Flask==2.1.1
 fsspec==2024.12.0
